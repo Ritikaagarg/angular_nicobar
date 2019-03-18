@@ -1,0 +1,29 @@
+header{
+    position: fixed;
+   z-index: 1000;
+   width:100%;
+}
+
+.link{
+    color:whitesmoke;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+
+}
+
+.header-right{
+  padding-top: 10px;
+  float: right;
+}
+
+.slide{
+    top:70px;
+    
+}
+
+.design{
+  background-color: rgb(132, 154, 216);
+  margin-bottom: 0;
+}

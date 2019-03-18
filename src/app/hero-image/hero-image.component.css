@@ -1,0 +1,58 @@
+header{
+  position: fixed;
+ z-index: 1000;
+ width:100%;
+}
+
+.link{
+  color:whitesmoke;
+}
+.dropdown:hover>.dropdown-menu{
+  display: block;
+
+}
+.header-right{
+padding-top: 10px;
+float: right;
+}
+
+.slide{
+  top:70px;
+}
+
+.design{
+background-color: rgb(132, 154, 216);
+margin-bottom: 0;
+}
+.category-design{
+  margin-top:100px;
+  position:sticky;
+  top:0;
+}
+.body-design{
+  margin-top: 50px;
+}
+.img-responsive{
+  position: relative;
+  width: 100%;
+}
+.img1{
+  display:block;
+  width:100%;
+  height:auto;
+}
+.img-responsive:hover .overlay{
+  opacity:1;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+}

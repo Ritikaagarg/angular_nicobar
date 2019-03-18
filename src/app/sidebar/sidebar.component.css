@@ -1,0 +1,22 @@
+.content{
+    
+    
+    width:100%;
+    background-color: burlywood;
+    position: sticky;
+    top:0;
+    height:200px;
+    
+
+}
+/* .content{
+    
+    background-color: burlywood;
+    position: sticky;
+    top:0;
+    height:200px;
+} */
+.sticky{
+    margin-top: 100%;
+    list-style-type: none;
+}
